@@ -1,7 +1,7 @@
 
 SRCS := $(wildcard src/*.cc)
 OBJS := $(SRCS:.cc=.o)
-CXXFLAGS := -std=c++0x -lstdc++ -LC:\Mingw64\lib
+CXXFLAGS := -O3 -std=c++0x -lstdc++ -LC:\Mingw64\lib
 
 TARGET := ballclock.exe
 
